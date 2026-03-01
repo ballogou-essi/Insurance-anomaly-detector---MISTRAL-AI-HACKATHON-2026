@@ -87,10 +87,15 @@ insurance-anomaly-detector/
 
 ```
 ## Installation and Launch (Mistral)
-Before launching the application, install the dependencies:
+Before launching the application:
+ - Rename the file `env` to => `.env`
+ - install the dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-
+Then start the entire project with:
+```bash
+python app.py
+```
