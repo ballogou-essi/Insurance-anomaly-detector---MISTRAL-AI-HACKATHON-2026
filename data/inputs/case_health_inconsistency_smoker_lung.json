@@ -1,0 +1,18 @@
+{
+  "case_id": "CASE-00106",
+  "case_family": "health_inconsistency",
+  "input": {
+    "applicant_id": "APP-00106",
+    "product": "health_plus",
+    "age": 52,
+    "annual_income_eur": 61000,
+    "requested_coverage_eur": 220000,
+    "smoker": false,
+    "occupation": "warehouse_operator",
+    "declared_sport": "none",
+    "medical_conditions": ["chronic_lung_disease"],
+    "hospitalizations_last_3y": 2,
+    "previous_claims_count": 1,
+    "free_text_notes": "I have regular respiratory treatment for a chronic pulmonary condition. I have never smoked. My doctor says it is related to professional exposure to dust at work."
+  }
+}

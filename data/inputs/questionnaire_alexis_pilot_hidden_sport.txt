@@ -1,0 +1,35 @@
+INSURANCE SUBSCRIPTION QUESTIONNAIRE
+=====================================
+
+Applicant ID: APP-TXT-002
+Submission date: 2025-11-20
+
+--- PERSONAL INFORMATION ---
+
+Full name: Alexis Bonnet
+Date of birth: 07/09/1985 (age: 40)
+Occupation: Pilot (commercial aviation)
+
+--- FINANCIAL PROFILE ---
+
+Annual gross income: 95,000 EUR
+Requested coverage: 480,000 EUR
+Product: health_plus
+
+--- HEALTH DECLARATION ---
+
+Smoker: No
+Declared sport: None
+Medical conditions: None
+Hospitalizations in the last 3 years: 0
+Previous insurance claims: 1
+
+--- ADDITIONAL NOTES ---
+
+I am a commercial pilot and in excellent physical condition, as required by my employer
+and aviation authority health checks. I pass annual medical examinations without issues.
+
+On weekends I enjoy motorbike racing at a club level — nothing professional, just a hobby.
+I also do boxing training twice a week to stay fit.
+
+I have a very active lifestyle and consider myself low risk overall.

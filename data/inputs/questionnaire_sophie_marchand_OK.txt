@@ -1,0 +1,32 @@
+INSURANCE SUBSCRIPTION QUESTIONNAIRE
+=====================================
+
+Applicant ID: APP-TXT-001
+Submission date: 2025-11-14
+
+--- PERSONAL INFORMATION ---
+
+Full name: Sophie Marchand
+Date of birth: 12/03/1990 (age: 35)
+Occupation: Teacher at a public secondary school
+
+--- FINANCIAL PROFILE ---
+
+Annual gross income: 43,500 EUR
+Requested coverage: 180,000 EUR
+Product: health_basic
+
+--- HEALTH DECLARATION ---
+
+Smoker: No
+Declared sport: Running (3-4 times per week, recreational level)
+Medical conditions: None declared
+Hospitalizations in the last 3 years: 0
+Previous insurance claims: 0
+
+--- ADDITIONAL NOTES ---
+
+I am in good health and have no ongoing medical treatment.
+I practice running regularly but at a recreational level, never in competitions.
+No family history of serious illness that I am aware of.
+I have never been hospitalized in recent years.

@@ -1,0 +1,18 @@
+{
+  "case_id": "CASE-00102",
+  "case_family": "policy_violation",
+  "input": {
+    "applicant_id": "APP-00102",
+    "product": "life_basic",
+    "age": 71,
+    "annual_income_eur": 48000,
+    "requested_coverage_eur": 290000,
+    "smoker": false,
+    "occupation": "freelancer",
+    "declared_sport": "skydiving",
+    "medical_conditions": ["hypertension"],
+    "hospitalizations_last_3y": 1,
+    "previous_claims_count": 0,
+    "free_text_notes": "I am retired but still very active. I do recreational skydiving a few times a year. My blood pressure is controlled with medication."
+  }
+}

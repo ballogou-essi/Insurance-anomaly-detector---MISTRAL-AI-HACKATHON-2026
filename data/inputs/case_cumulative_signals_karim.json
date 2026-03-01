@@ -1,0 +1,18 @@
+{
+  "case_id": "CASE-00105",
+  "case_family": "cumulative_signals",
+  "input": {
+    "applicant_id": "APP-00105",
+    "product": "health_basic",
+    "age": 41,
+    "annual_income_eur": 27000,
+    "requested_coverage_eur": 195000,
+    "smoker": true,
+    "occupation": "construction_worker",
+    "declared_sport": "none",
+    "medical_conditions": ["chronic_lung_disease"],
+    "hospitalizations_last_3y": 3,
+    "previous_claims_count": 4,
+    "free_text_notes": "I work on construction sites. I occasionally enjoy climbing on weekends when the weather is good. I smoke half a pack per day."
+  }
+}

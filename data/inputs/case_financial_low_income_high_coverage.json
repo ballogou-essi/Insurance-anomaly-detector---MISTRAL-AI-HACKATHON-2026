@@ -1,0 +1,18 @@
+{
+  "case_id": "CASE-00104",
+  "case_family": "financial_inconsistency",
+  "input": {
+    "applicant_id": "APP-00104",
+    "product": "health_plus",
+    "age": 33,
+    "annual_income_eur": 22000,
+    "requested_coverage_eur": 490000,
+    "smoker": false,
+    "occupation": "driver",
+    "declared_sport": "football",
+    "medical_conditions": [],
+    "hospitalizations_last_3y": 0,
+    "previous_claims_count": 0,
+    "free_text_notes": "My financial situation is stable. I am requesting the maximum coverage as a precaution for my family."
+  }
+}

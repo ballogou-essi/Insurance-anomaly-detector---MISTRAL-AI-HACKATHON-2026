@@ -1,0 +1,9 @@
+applicant_id,product,age,annual_income_eur,requested_coverage_eur,smoker,occupation,declared_sport,medical_conditions,hospitalizations_last_3y,previous_claims_count,free_text_notes
+APP-CSV-001,health_basic,29,38000,120000,no,office_worker,running,none,0,0,No health issues. I run regularly for fitness.
+APP-CSV-002,health_plus,55,31000,495000,yes,driver,none,hypertension,2,3,I take medication for blood pressure. I smoke about 10 cigarettes per day. Stable condition overall.
+APP-CSV-003,life_basic,42,67000,250000,no,teacher,football,asthma,0,1,Mild asthma well-controlled with an inhaler. I play football weekly at amateur level.
+APP-CSV-004,health_basic,68,45000,185000,no,freelancer,none,heart_disease,4,2,I had a heart procedure in 2022 and have been under cardiological follow-up since. I take blood thinners daily.
+APP-CSV-005,health_plus,36,25000,480000,no,construction_worker,none,none,1,0,My financial situation is fine. I requested high coverage for my family protection. I practice climbing on weekends.
+APP-CSV-006,health_basic,31,52000,140000,no,office_worker,none,none,0,0,No medical history. Non-smoker. Good general health. Desk job.
+APP-CSV-007,life_basic,48,78000,290000,yes,pilot,boxing,chronic_lung_disease,1,0,I am a commercial pilot and pass all mandatory health checks. I box twice a week. I smoke occasionally.
+APP-CSV-008,health_plus,27,19000,450000,no,warehouse_operator,skydiving,none,0,0,I skydive as a hobby about 15 times per year. I work in a warehouse. My income is modest but stable.

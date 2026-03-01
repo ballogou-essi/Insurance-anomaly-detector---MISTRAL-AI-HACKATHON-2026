@@ -1,0 +1,18 @@
+{
+  "case_id": "CASE-00101",
+  "case_family": "coherent",
+  "input": {
+    "applicant_id": "APP-00101",
+    "product": "health_plus",
+    "age": 38,
+    "annual_income_eur": 72000,
+    "requested_coverage_eur": 300000,
+    "smoker": false,
+    "occupation": "teacher",
+    "declared_sport": "running",
+    "medical_conditions": ["asthma"],
+    "hospitalizations_last_3y": 0,
+    "previous_claims_count": 1,
+    "free_text_notes": "I have mild asthma managed with an inhaler. I run 3 times a week and am in good general health. No other medical conditions."
+  }
+}

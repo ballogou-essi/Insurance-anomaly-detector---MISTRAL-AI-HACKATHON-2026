@@ -1,0 +1,36 @@
+INSURANCE SUBSCRIPTION QUESTIONNAIRE
+=====================================
+
+Applicant ID: APP-TXT-003
+Submission date: 2025-10-05
+
+--- PERSONAL INFORMATION ---
+
+Full name: Bernard Lefevre
+Date of birth: 22/01/1952 (age: 73)
+Occupation: Retired (formerly warehouse operator)
+
+--- FINANCIAL PROFILE ---
+
+Annual gross income: 24,000 EUR (pension)
+Requested coverage: 310,000 EUR
+Product: life_basic
+
+--- HEALTH DECLARATION ---
+
+Smoker: Yes (20 cigarettes/day for 35 years)
+Declared sport: None
+Medical conditions: hypertension, heart_disease
+Hospitalizations in the last 3 years: 3 (cardiac episode 2023, follow-up 2024 x2)
+Previous insurance claims: 2
+
+--- ADDITIONAL NOTES ---
+
+I had a cardiac episode in early 2023 which required hospitalization.
+Since then I am under regular medical follow-up and take daily medication for
+blood pressure and heart rhythm.
+
+I was advised by my cardiologist to avoid strenuous physical activity.
+I do light walks but nothing more intensive.
+
+I am applying for life insurance to protect my family in case of an incident.

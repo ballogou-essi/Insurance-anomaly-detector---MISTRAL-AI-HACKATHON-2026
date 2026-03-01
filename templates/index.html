@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Insurance Anomaly Detector</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="page-bg" aria-hidden="true">
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+    <div class="glow glow-3"></div>
+    <canvas id="particles-canvas"></canvas>
+  </div>
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">IA</div>
+      <div class="brandText">
+        <div class="title">Insurance Anomaly Detector</div>
+        <div class="subtitle">Analyse assistée par IA pour la détection d’anomalies</div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <span class="hint">Utiliser Mistral</span>
+      <label class="switch" title="Activer ou désactiver Mistral">
+        <input id="useMistral" type="checkbox" checked />
+        <span class="slider"></span>
+      </label>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div class="hero-kicker">
+        <span id="typedHello"></span>
+        <span id="typedCursor" class="typing-cursor" aria-hidden="true"></span>
+      </div>
+
+      <h1 class="hero-title">
+        Analysez un dossier en quelques secondes
+      </h1>
+
+      <p class="hero-desc">
+        <span id="typedIntro"></span>
+      </p>
+
+      <div class="hero-badges">
+        <span class="pill">PDF</span>
+        <span class="pill">TXT</span>
+        <span class="pill">CSV</span>
+        <span class="pill">JSON</span>
+        <span class="pill">Formulaire intelligent</span>
+      </div>
+    </section>
+
+    <section class="mainGrid">
+      <section class="panel panel-left">
+        <div class="tabs">
+          <button class="tab active" data-tab="file">Fichier</button>
+          <button class="tab" data-tab="form">Formulaire</button>
+        </div>
+
+        <div class="tabview active" id="tab-file">
+          <div class="dropzone" id="dropzone">
+            <div class="dz-icon">↑</div>
+            <div class="dz-title">Dépose ton fichier ici</div>
+            <div class="dz-sub">PDF, TXT, CSV ou JSON</div>
+
+            <div class="dz-actions">
+              <input id="fileInput" type="file" accept=".pdf,.txt,.csv,.json" hidden />
+              <button class="btn ghost" id="browseBtn">Choisir un fichier</button>
+              <button class="btn primary" id="analyzeBtn" disabled>Lancer l’analyse</button>
+            </div>
+
+            <div class="dz-file" id="fileInfo">Aucun fichier sélectionné</div>
+          </div>
+
+          <div class="helper-card">
+            Dépose un document ou sélectionne-le manuellement. L’application extrait les éléments clés, calcule un score de risque et propose une action recommandée.
+          </div>
+        </div>
+
+        <div class="tabview" id="tab-form">
+          <div class="formgrid">
+            <div class="field">
+              <label for="fullName">Nom complet</label>
+              <input id="fullName" type="text" placeholder="Ex : Jean Dupont" />
+            </div>
+
+            <div class="field">
+              <label for="age">Âge</label>
+              <input id="age" type="number" min="0" placeholder="Ex : 34" />
+            </div>
+
+            <div class="field">
+              <label for="product">Produit</label>
+              <input id="product" type="text" placeholder="Ex : Auto, Habitation, Santé" />
+            </div>
+
+            <div class="field">
+              <label for="occupation">Profession</label>
+              <input id="occupation" type="text" placeholder="Ex : Chauffeur VTC" />
+            </div>
+
+            <div class="field">
+              <label for="income">Revenu annuel (€)</label>
+              <input id="income" type="number" min="0" placeholder="Ex : 28000" />
+            </div>
+
+            <div class="field full">
+              <label for="notes">Notes</label>
+              <textarea
+                id="notes"
+                rows="5"
+                placeholder="Ajoute ici les informations utiles, incohérences perçues, contexte ou éléments complémentaires"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="row">
+            <button class="btn primary wide-mobile" id="analyzeFormBtn">Analyser le formulaire</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel panel-right">
+        <div class="resultHead">
+          <div class="statusWrap">
+            <div class="section-label">Statut</div>
+            <div class="badge" id="statusBadge">—</div>
+          </div>
+
+          <div class="scoreCard">
+            <div class="scoreLabel">Score de risque</div>
+            <div class="scoreValue" id="riskScore">—</div>
+          </div>
+
+          <div class="actions">
+            <button class="btn ghost" id="exportBtn" disabled>Exporter en PDF</button>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <div class="cardTitle">Alertes principales</div>
+            <ul class="alerts" id="alertsList">
+              <li class="muted">Aucun résultat pour le moment</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="cardTitle">Action recommandée</div>
+            <div class="bigText" id="recommendedAction">—</div>
+          </div>
+
+          <div class="card wide">
+            <div class="cardTitle">Résumé</div>
+            <div class="para" id="summaryExplanation">—</div>
+          </div>
+
+          <details class="card wide details-card">
+            <summary>Afficher le JSON technique</summary>
+            <pre id="rawJson" class="json"></pre>
+          </details>
+        </div>
+
+        <div class="toast" id="toast"></div>
+      </section>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
