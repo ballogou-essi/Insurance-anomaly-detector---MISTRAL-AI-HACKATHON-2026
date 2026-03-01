@@ -1,6 +1,9 @@
 # Insurance Anomaly Detector – AI-Assisted Anomaly Detection
 
 ## Business Objective
+
+Démo: https://youtu.be/XMHz59fp5-I?si=ZsLREIBCfXg-yI-f
+
 This project simulates a **decision-support tool** for the analysis of insurance underwriting files.
 
 In a real-world scenario, an insurer receives files (PDFs, forms, supporting documents, CSV/JSON exports). 
@@ -21,6 +24,12 @@ The system produces a standardized business-oriented output:
 - **summary_explanation**: a clear, business-oriented synthesis
 
 > Important: This is an **AI-assisted analysis**, it is **not** a final human validation.
+
+## Application Preview
+
+![Insurance Anomaly Detector Interface](pic/Capture%20d%E2%80%99%C3%A9cran%202026-03-01%20152623.png)
+
+*Main interface showing the analysis results with status badge, risk score, alerts, and recommended actions.*
 
 ## How It Works (Pipeline)
 1. **Input**
@@ -71,6 +80,9 @@ insurance-anomaly-detector/
     style.css                    # Visual styling of the interface
     background/                  # Resources for background visuals or animations
 
+  pic/                           # Screenshots and images for documentation
+    Capture d’écran 2026-03-01 152623.png  # Application screenshot
+
   video/                         # Demonstration or presentation video files
 
 ```
@@ -81,12 +93,4 @@ Before launching the application, install the dependencies:
 pip install -r requirements.txt
 ```
 
-Then start the entire project with:
 
-```bash
-python app.py
-```
-
-
-
-![alt text](image-1.png)
